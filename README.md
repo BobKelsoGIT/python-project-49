@@ -5,4 +5,4 @@
 
 Демонстрация игр «Проверка на чётность» и «Калькулятор»:
 
-[![asciicast](https://github.com/BobKelsoGIT/python-project-49/blob/5382d06135955377720b7bb3083718afa5fd8115/615542.cast)](https://asciinema.org/a/UgZ1uL9Cbl02cyUknAaehthFO)
+[![asciicast](https://asciinema.org/a/UgZ1uL9Cbl02cyUknAaehthFO.svg)](https://asciinema.org/a/UgZ1uL9Cbl02cyUknAaehthFO)
