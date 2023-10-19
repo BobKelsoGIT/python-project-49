@@ -8,10 +8,10 @@ def expression():
     Generating expression
     """
     list_of_expressions = ['+', '-', '*']
-    first_number = random.randint(1, 10)
-    second_number = random.randint(1, 10)
-    operator = random.choice(list_of_expressions)
-    return f'{first_number} {operator} {second_number}'
+    first_number = random.randint(1, 10)  # generating first Int
+    second_number = random.randint(1, 10)  # generating second Int
+    operator = random.choice(list_of_expressions)  # pick '+', '-' or '*' randomly
+    return f'{first_number} {operator} {second_number}'  # return generated expression
 
 
 def calc_game():
