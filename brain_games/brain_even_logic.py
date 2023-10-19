@@ -1,6 +1,6 @@
 import random
 import prompt
-import brain_games.general_func
+from brain_games.general_func import welcome_user
 
 
 def is_even(num):
@@ -14,7 +14,7 @@ def even_game():
     """
     Play a game where the user needs to guess if a number is even or not.
     """
-    name = brain_games.general_func.welcome_user()  # Greet the user
+    name = welcome_user()  # Greet the user
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     for _ in range(3):  # Play 3 rounds

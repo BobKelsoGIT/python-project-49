@@ -1,6 +1,5 @@
 import random
 import prompt
-import brain_games.general_func
 from brain_games.general_func import welcome_user
 
 
@@ -19,7 +18,7 @@ def calc_game():
     """
     Play a game where the user needs to calculate the expression
     """
-    name = brain_games.general_func.welcome_user()  # Greet the user
+    name = welcome_user()  # Greet the user
     for _ in range(3):  # Play 3 rounds
         expr = expression()
         print(f'What is the result of the expression?')
