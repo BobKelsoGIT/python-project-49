@@ -5,4 +5,4 @@
 
 Демонстрация игр «Проверка на чётность» и «Калькулятор»:
 
-[![asciicast](https://asciinema.org/a/UgZ1uL9Cbl02cyUknAaehthFO.svg)](https://asciinema.org/a/UgZ1uL9Cbl02cyUknAaehthFO)
+[![asciicast](https://asciinema.org/a/GoENutQ16jmZtUJyznKUv7bLC.svg)](https://asciinema.org/a/GoENutQ16jmZtUJyznKUv7bLC)
