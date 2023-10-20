@@ -12,7 +12,9 @@ def play_game(questions, answers, description):
     name = welcome_user()  # Greet the user
     print(description)
     for question, correct_answer in zip(questions, answers):
-        print(f'Question: {question}')
+        q = question[0]
+        q = str(q)
+        print(f"Question: {q.strip('[]')}")
         user_answer = prompt.string(f'Your answer: ')
 
         if user_answer == correct_answer:

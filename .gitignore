@@ -6,5 +6,5 @@ dist/
 .coverage
 coverage.xml
 .pytest_cache/
-.DS_Store
+brain_games/.DS_Store
 .idea/
