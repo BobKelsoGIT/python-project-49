@@ -17,7 +17,7 @@ def even_game():
     for _ in range(3):
         questions_for_calculations.append(random.randint(1, 100))
     for q in questions_for_calculations:
-        questions.append([q])
+        questions.append([str(q)])
         if is_even(q):
             answers.append('yes')
         else:

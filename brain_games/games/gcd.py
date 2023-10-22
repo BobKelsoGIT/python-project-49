@@ -25,7 +25,7 @@ def gcd_game():
         first_number = random.randint(1, 100)
         second_number = random.randint(1, 100)
         numbers_for_calculations.append([first_number, second_number])
-        questions.append([str(first_number) + ' ' + str(second_number)])
+        questions.append(([str(first_number) + ' ' + str(second_number)]))
 
     for q in numbers_for_calculations:
         list_of_prime_factors = [str(round(value)) for value in prime_factors(q[0]) if value in prime_factors(q[1])]
