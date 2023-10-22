@@ -8,3 +8,4 @@ coverage.xml
 .pytest_cache/
 brain_games/.DS_Store
 .idea/
+.DS_Store

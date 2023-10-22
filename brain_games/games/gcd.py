@@ -15,7 +15,6 @@ def gcd_game():
 
     description = 'Find the greatest common divisor of given numbers.'
 
-    numbers_for_calculations = []
     questions = []
     answers = []
 
@@ -24,6 +23,5 @@ def gcd_game():
         num2 = random.randint(1, 100)
         questions.append(([str(num1) + ' ' + str(num2)]))
         answers.append(str(prime_factors(num1, num2)))
-
 
     play_game(questions, answers, description)
