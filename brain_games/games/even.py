@@ -11,7 +11,7 @@ def is_even(num):
 
 def even_game():
 
-    description = 'Answer "yes" if the number is even, otherwise answer "no".'
+    DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
     questions = []
     answers = []
@@ -21,4 +21,4 @@ def even_game():
         questions.append([str(number)])
         answers.append('yes' if is_even(number) else 'no')
 
-    play_game(questions, answers, description)
+    play_game(questions, answers, DESCRIPTION)

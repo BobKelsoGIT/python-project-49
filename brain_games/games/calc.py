@@ -17,7 +17,7 @@ def calc_game():
     """
     Play a game where the user needs to calculate the expression
     """
-    description = 'What is the result of the expression?'
+    DESCRIPTION = 'What is the result of the expression?'
 
     questions = []
     answers = []
@@ -28,4 +28,4 @@ def calc_game():
         for i in q:
             answers.append(str(eval(i)))
 
-    play_game(questions, answers, description)
+    play_game(questions, answers, DESCRIPTION)

@@ -8,9 +8,9 @@ def welcome_user():
     return name
 
 
-def play_game(questions, answers, description):
+def play_game(questions, answers, DESCRIPTION):
     name = welcome_user()  # Greet the user
-    print(description)
+    print(DESCRIPTION)
     for question, correct_answer in zip(questions, answers):
         q = [x.replace(" ", "") if x == ".." else x for x in question]
         # print(f"Question: {q.strip('[], ')}")
