@@ -1,6 +1,8 @@
 import random
 from brain_games.game_logic import play_game
 
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def is_even(num):
     """
@@ -10,8 +12,6 @@ def is_even(num):
 
 
 def even_game():
-
-    RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
     questions = []
     answers = []

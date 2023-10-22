@@ -1,6 +1,8 @@
 import random
 from brain_games.game_logic import play_game
 
+RULES = 'What number is missing in the progression?'
+
 
 def generate_progression() -> [str]:
     """
@@ -13,8 +15,6 @@ def generate_progression() -> [str]:
 
 
 def progression_game():
-
-    RULES = 'What number is missing in the progression?'
 
     progression_list = []
     questions = []

@@ -1,6 +1,8 @@
 import random
 from brain_games.game_logic import play_game
 
+RULES = 'What is the result of the expression?'
+
 
 def expression():
     """
@@ -17,8 +19,6 @@ def calc_game():
     """
     Play a game where the user needs to calculate the expression
     """
-    RULES = 'What is the result of the expression?'
-
     questions = []
     answers = []
     for _ in range(3):

@@ -1,6 +1,8 @@
 import random
 from brain_games.game_logic import play_game
 
+RULES = 'Find the greatest common divisor of given numbers.'
+
 
 def prime_factors(num1, num2):
     """
@@ -12,8 +14,6 @@ def prime_factors(num1, num2):
 
 
 def gcd_game():
-
-    RULES = 'Find the greatest common divisor of given numbers.'
 
     questions = []
     answers = []
