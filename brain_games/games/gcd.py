@@ -3,6 +3,9 @@ from brain_games.game_logic import play_game
 
 
 def prime_factors(number):
+    """
+    Find prime factorials for the number
+    """
     i = 2
     factors = []
     while i * i <= number:

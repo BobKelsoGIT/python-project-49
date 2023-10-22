@@ -10,7 +10,7 @@ def expression():
     first_number = random.randint(1, 10)  # generating first Int
     second_number = random.randint(1, 10)  # generating second Int
     operator = random.choice(list_of_expressions)  # pick '+', '-' or '*' randomly
-    return f'{first_number}{operator}{second_number}'  # return generated expression
+    return f'{first_number} {operator} {second_number}'  # return generated expression
 
 
 def calc_game():

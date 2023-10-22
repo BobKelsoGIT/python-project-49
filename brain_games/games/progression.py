@@ -3,6 +3,9 @@ from brain_games.game_logic import play_game
 
 
 def generate_progression() -> [str]:
+    """
+    Generate the progression
+    """
     length = random.randint(5, 10)
     start = random.randint(1, 10)
     step = random.randint(1, 10)

@@ -10,17 +10,15 @@ def is_even(num):
 
 
 def even_game():
+
     description = 'Answer "yes" if the number is even, otherwise answer "no".'
-    questions_for_calculations = []
+
     questions = []
     answers = []
+
     for _ in range(3):
-        questions_for_calculations.append(random.randint(1, 100))
-    for q in questions_for_calculations:
-        questions.append([str(q)])
-        if is_even(q):
-            answers.append('yes')
-        else:
-            answers.append('no')
+        number = random.randint(1, 100)
+        questions.append([str(number)])
+        answers.append('yes' if is_even(number) else 'no')
 
     play_game(questions, answers, description)
