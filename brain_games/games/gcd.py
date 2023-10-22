@@ -19,7 +19,9 @@ def prime_factors(number):
 
 
 def gcd_game():
+
     description = 'Find the greatest common divisor of given numbers.'
+
     numbers_for_calculations = []
     questions = []
     answers = []
