@@ -13,7 +13,7 @@ def prime_factors(num1, num2):
 
 def gcd_game():
 
-    DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+    RULES = 'Find the greatest common divisor of given numbers.'
 
     questions = []
     answers = []
@@ -24,4 +24,4 @@ def gcd_game():
         questions.append(([str(num1) + ' ' + str(num2)]))
         answers.append(str(prime_factors(num1, num2)))
 
-    play_game(questions, answers, DESCRIPTION)
+    play_game(questions, answers, RULES)

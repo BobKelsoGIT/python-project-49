@@ -16,7 +16,7 @@ def is_prime(number):
 
 def prime_game():
 
-    DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
     questions = []
     answers = []
@@ -26,4 +26,4 @@ def prime_game():
         questions.append([str(number)])
         answers.append('yes' if is_prime(number) else 'no')
 
-    play_game(questions, answers, DESCRIPTION)
+    play_game(questions, answers, RULES)

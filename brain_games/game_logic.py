@@ -15,13 +15,15 @@ def play_game(questions, answers, DESCRIPTION):
         q = [x.replace(" ", "") if x == ".." else x for x in question]
         # print(f"Question: {q.strip('[], ')}")
         print(f"Question: {' '.join(q)}")
-        user_answer = prompt.string(f'Your answer: ')
+        answer = prompt.string('Your answer: ')
 
-        if user_answer == correct_answer:
+        if answer == correct_answer:
             print('Correct!')
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'")
-            print(f"Let's try again, {name}!")
+            print(
+                f"'{answer}' is wrong answer."
+                f"\nCorrect answer was '{correct_answer}'."
+                f"Let's try again, {name}!")
             return
 
     print(f'Congratulations, {name}!')

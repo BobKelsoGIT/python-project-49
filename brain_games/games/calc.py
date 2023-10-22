@@ -7,17 +7,17 @@ def expression():
     Generating expression
     """
     list_of_expressions = ['+', '-', '*']
-    first_number = random.randint(1, 10)  # generating first Int
-    second_number = random.randint(1, 10)  # generating second Int
-    operator = random.choice(list_of_expressions)  # pick '+', '-' or '*' randomly
-    return f'{first_number} {operator} {second_number}'  # return generated expression
+    first_number = random.randint(1, 10)
+    second_number = random.randint(1, 10)
+    operator = random.choice(list_of_expressions)
+    return f'{first_number} {operator} {second_number}'
 
 
 def calc_game():
     """
     Play a game where the user needs to calculate the expression
     """
-    DESCRIPTION = 'What is the result of the expression?'
+    RULES = 'What is the result of the expression?'
 
     questions = []
     answers = []
@@ -28,4 +28,4 @@ def calc_game():
         for i in q:
             answers.append(str(eval(i)))
 
-    play_game(questions, answers, DESCRIPTION)
+    play_game(questions, answers, RULES)

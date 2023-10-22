@@ -14,7 +14,7 @@ def generate_progression() -> [str]:
 
 def progression_game():
 
-    DESCRIPTION = 'What number is missing in the progression?'
+    RULES = 'What number is missing in the progression?'
 
     progression_list = []
     questions = []
@@ -34,4 +34,4 @@ def progression_game():
                 each_question_list[k] = '..'
                 questions.append(each_question_list)
 
-    play_game(questions, answers, DESCRIPTION)
+    play_game(questions, answers, RULES)
