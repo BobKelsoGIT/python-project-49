@@ -54,6 +54,7 @@ brain-prime
 <h3 align="center">Demonstration of the game 'Parity Check'</h3>
 
 <h4 align="center">"Parity Check": asks you to determine whether a given number is even. You need to answer "yes" or "no".</h4>
+
 [![asciicast](https://asciinema.org/a/NgUe2yLPUTyBZcX97JdYEyfvC.svg)](https://asciinema.org/a/NgUe2yLPUTyBZcX97JdYEyfvC)
 
 <h3 align="center">Demonstration of the game 'Calculator'</h3>
