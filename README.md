@@ -42,6 +42,7 @@ Arithmetic Progression:  $ brain-progression
 
 Is it a Prime Number?:  $  brain-prime
 ```
+
 <hr>
 
 <h3 align="center">Demonstration of the game 'Parity Check'</h3>
