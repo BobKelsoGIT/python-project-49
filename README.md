@@ -23,7 +23,6 @@
     make install
     make build
     make package-install
-
 </td>
 </tr>
   </table>
@@ -31,16 +30,23 @@
 <hr>
 
 <h3 align="left">Commands to start the games:</h3>
-```
-Parity Check:  $ brain-even
 
-Calculator:  $ brain-calculator
+```Python
 
-GCD (Greatest Common Divisor):  $ brain-gcd
+#Parity Check:
+brain-even
 
-Arithmetic Progression:  $ brain-progression
+#Calculator:
+brain-calculator
 
-Is it a Prime Number?:  $  brain-prime
+#GCD (Greatest Common Divisor):
+brain-gcd
+
+#Arithmetic Progression:
+brain-progression
+
+#Is it a Prime Number:  
+brain-prime
 ```
 
 <hr>
