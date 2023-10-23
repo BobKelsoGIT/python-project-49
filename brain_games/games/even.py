@@ -12,7 +12,6 @@ def is_even(num):
 
 
 def even_game():
-
     questions = []
     answers = []
 

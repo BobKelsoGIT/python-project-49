@@ -15,7 +15,6 @@ def generate_progression() -> [str]:
 
 
 def progression_game():
-
     progression_list = []
     questions = []
     answers = []

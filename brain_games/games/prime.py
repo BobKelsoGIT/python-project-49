@@ -6,7 +6,7 @@ RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(number):
     """
-    Check if the number is ptime
+    Check if the number is prime
     """
     if number < 2:
         return False
@@ -17,7 +17,6 @@ def is_prime(number):
 
 
 def prime_game():
-
     questions = []
     answers = []
 

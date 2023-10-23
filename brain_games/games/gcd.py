@@ -14,7 +14,6 @@ def prime_factors(num1, num2):
 
 
 def gcd_game():
-
     questions = []
     answers = []
 

@@ -2,6 +2,9 @@ import prompt
 
 
 def welcome_user():
+    """
+    Greet the user and get the name
+    """
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -9,11 +12,10 @@ def welcome_user():
 
 
 def play_game(questions, answers, DESCRIPTION):
-    name = welcome_user()  # Greet the user
+    name = welcome_user()
     print(DESCRIPTION)
     for question, correct_answer in zip(questions, answers):
         q = [x.replace(" ", "") if x == ".." else x for x in question]
-        # print(f"Question: {q.strip('[], ')}")
         print(f"Question: {' '.join(q)}")
         answer = prompt.string('Your answer: ')
 

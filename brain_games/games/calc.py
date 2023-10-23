@@ -16,9 +16,6 @@ def expression():
 
 
 def calc_game():
-    """
-    Play a game where the user needs to calculate the expression
-    """
     questions = []
     answers = []
     for _ in range(3):
