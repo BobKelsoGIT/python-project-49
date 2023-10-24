@@ -1,5 +1,4 @@
 import random
-from brain_games.game_logic import play_game
 
 RULES = 'Find the greatest common divisor of given numbers.'
 
@@ -13,14 +12,9 @@ def prime_factors(num1, num2):
     return num1
 
 
-def gcd_game():
-    questions = []
-    answers = []
-
-    for _ in range(3):
-        num1 = random.randint(1, 100)
-        num2 = random.randint(1, 100)
-        questions.append(([str(num1) + ' ' + str(num2)]))
-        answers.append(str(prime_factors(num1, num2)))
-
-    play_game(questions, answers, RULES)
+def generate_round():
+    num1 = random.randint(1, 100)
+    num2 = random.randint(1, 100)
+    question = f'{num1} {num2}'
+    answer = str(prime_factors(num1, num2))
+    return question, answer

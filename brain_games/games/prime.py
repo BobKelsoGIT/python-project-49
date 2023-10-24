@@ -1,5 +1,4 @@
 import random
-from brain_games.game_logic import play_game
 
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -16,13 +15,8 @@ def is_prime(number):
     return True
 
 
-def prime_game():
-    questions = []
-    answers = []
-
-    for _ in range(3):
-        number = random.randint(1, 10)
-        questions.append([str(number)])
-        answers.append('yes' if is_prime(number) else 'no')
-
-    play_game(questions, answers, RULES)
+def generate_round():
+    number = random.randint(1, 100)
+    question = str(number)
+    answer = 'yes' if is_prime(number) else 'no'
+    return question, answer

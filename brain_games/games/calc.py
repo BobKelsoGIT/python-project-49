@@ -1,5 +1,4 @@
 import random
-from brain_games.game_logic import play_game
 
 RULES = 'What is the result of the expression?'
 
@@ -15,14 +14,7 @@ def expression():
     return f'{first_number} {operator} {second_number}'
 
 
-def calc_game():
-    questions = []
-    answers = []
-    for _ in range(3):
-        questions.append([expression()])
-
-    for q in questions:
-        for i in q:
-            answers.append(str(eval(i)))
-
-    play_game(questions, answers, RULES)
+def generate_round():
+    question = expression()
+    right_answer = str(eval(question))
+    return question, right_answer
