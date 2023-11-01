@@ -3,7 +3,7 @@ import random
 RULES = 'What is the result of the expression?'
 
 
-def expression():
+def make_expression():
     """
     Generating expression
     """
@@ -15,6 +15,6 @@ def expression():
 
 
 def generate_round():
-    question = expression()
+    question = make_expression()
     right_answer = str(eval(question))
     return question, right_answer
